@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Formulario de Comida</title>
+</head>
+<body>
+    <header>
+        <img src="duartelg.png" alt="Logo de la Empresa" class="logo">
+        <h1>Ordena Tu Comida Favorita</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="form.html">Formulario</a></li>
+                <li><a href="rece.html">Recetas</a></li>
+                <li><a href="quien.html">Quien soy</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Formulario de Pedido</h2>
+            <form action="#" method="POST">
+                <label for="pizza">Elige tu pizza:</label><br>
+                <select id="pizza" name="pizza">
+                    <option value="grande">Grande</option>
+                    <option value="mediana">Mediana</option>
+                    <option value="simple">Simple</option>
+                </select><br><br>
+
+                <label for="hamburguesa">Elige tu hamburguesa:</label><br>
+                <select id="hamburguesa" name="hamburguesa">
+                    <option value="queso">Con Queso</option>
+                    <option value="sin-queso">Simple</option>
+                    <option value="con-tocino">Con tocino</option>
+                </select><br><br>
+
+                <label for="taco">Elige tu taco:</label><br>
+                <select id="taco" name="taco">
+                    <option value="bistec">Bistec</option>
+                    <option value="pastor">Pastor</option>
+                    <option value="Multiple">Multiple</option>
+                </select><br><br>
+
+                <input type="submit" value="Enviar Pedido">
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 DUARTE LOGISTICS. CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL Y DE SERVICIOS.</p>
+    </footer>
+</body>
+</html>
